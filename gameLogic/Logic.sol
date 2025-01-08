@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.28;
 
-contract EarnerGameLogic{
+abstract contract EarnerGameLogic{
     enum gameState{active,ended}
 
     struct gameStruct{
